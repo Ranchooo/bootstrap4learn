@@ -32,7 +32,7 @@ footer p {
   margin-bottom: .25rem;
 }
 
-/* Rancho样式 - index */
+/* Rancho样式 ------------- index **********************************/
 
 .search {
   margin-top: 25px;
@@ -110,7 +110,7 @@ footer p {
 
 .yuan {
   display: inline-block;
-  font-size: 8px;
+  font-size: 10px;
   margin-right: 2px;
   color: #EC5E2A;
 }
@@ -120,22 +120,26 @@ footer p {
   font-size: 20px;
   margin-bottom: 0;
   color: #EC5E2A;
+  margin-right: 10px;
 }
 
 .old-price {
   display: inline-block;
   font-size: 14px;
   color: #979897;
-  margin-left: 10px;
 }
 
 .loadmore {
   margin-top: 30px;
 }
 
-span.yellow {
+a.yellow {
+  font-size: 12px;
   color: #FFFFFF;
   background: #EC5E2A;
+  border-radius: 30px;
+  padding: 1px 6px;
+  text-decoration: none;
 }
 
 button.yellow {
@@ -161,4 +165,157 @@ button.yellow:hover {
 
 a.red {
   color: #EC5E2A;
+}
+
+/* Rancho样式 ------------- coupon **********************************/
+
+.coupon-left {
+	margin-bottom: 30px;
+}
+
+.img-cp img {
+  border-radius: 6px;
+}
+
+.price-cp {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.detail-yuan {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 2px;
+  color: #EC5E2A;
+}
+
+.detail-now-price {
+  display: inline-block;
+  font-size: 26px;
+  margin-bottom: 0;
+  color: #EC5E2A;
+}
+
+.detail-old-price {
+  display: inline-block;
+  font-size: 16px;
+  color: #979897;
+  margin-left: 10px;
+}
+
+.detail-shop {
+	background: #FFFFFF;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.02);
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.shop-count {
+  margin-top: 4px;
+}
+
+.count-cp {
+	display: inline-block;
+	width: 30%;
+}
+
+.shop-count .count-cp span:first-child {
+	font-size: 14px;
+	color: #9B9B9B;
+}
+
+.shop-count .count-cp span:last-child {
+	font-size: 14px;
+	color: #FF4400;
+}
+
+.coupon-title h5{
+  color: #2c2c2c;
+	line-height: 32px;
+}
+
+.coupon-number {
+	font-size: 14px;
+	color: #9B9B9B;
+	margin-top: 5px;
+}
+
+.coupon-number span:last-child {
+  float: right;
+}
+
+.coupon-get {
+	height: 100px;
+	position: relative;
+	margin-top: 20px;
+	background: #FFFFFF;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
+	border-radius: 6px;
+}
+
+.coupon-get span{
+	display: block;
+}
+
+.get-link {
+	height: 100px;
+	display: inline-block;
+}
+
+.get-link span:first-child {
+	font-size: 30px;
+	font-weight: 700;
+	color: #FF4400;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin: 24px 0 0 20px;
+}
+
+.get-link span:last-child {
+	font-size: 14px;
+	color: #FF4400;
+	letter-spacing: 0;
+	line-height: 20px;
+	margin: 5px 0 20px 20px;
+}
+
+.get-order {
+	text-align: center;
+	height: 100px;
+	border-radius: 0 6px 6px 0;
+	display: inline-block;
+	float: right;
+  background: #FF4400;
+}
+
+.get-order span:first-child {
+	font-size: 24px;
+	font-weight: 700;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin: 24px 22px 0 22px;
+}
+
+.get-order span:last-child {
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 20px;
+  margin: 5px 22px 20px 22px;
+}
+
+.coupon-right ul{
+	list-style: none;
+	padding: 0;
+}
+
+.coupon-right ul li:first-child img {
+	border-radius: 8px 8px 0 0;
+}
+
+.coupon-right ul li:last-child img {
+	border-radius: 0 0 8px 8px;
 }
