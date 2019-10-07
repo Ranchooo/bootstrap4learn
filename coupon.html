@@ -95,7 +95,7 @@
                                     <span>￥30</span>
                                     <span>链接领取优惠券</span>
                                 </div>
-                                <div class="get-order">
+                                <div class="get-order" data-clipboard-text="测试口令">
                                     <span>淘口令</span>
                                     <span>复制领取</span>
                                 </div>
@@ -144,6 +144,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script>
+        var clipboard = new ClipboardJS('.get-order');
+        clipboard.on('success', function (e) {
+            alert('复制成功！打开淘宝APP即可领券！');
+        });
+        clipboard.on('error', function (e) {
+            alert('复制失败！多次失败可发帖反馈！');
+        });
+    </script>
 </body>
 
 </html>

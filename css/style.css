@@ -288,6 +288,7 @@ a.red {
 	display: inline-block;
 	float: right;
   background: #FF4400;
+  cursor: pointer;
 }
 
 .get-order span:first-child {
