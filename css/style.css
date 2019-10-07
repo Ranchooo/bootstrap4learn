@@ -1,0 +1,164 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Rancho样式 - index */
+
+.search {
+  margin-top: 25px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.shop-cp {
+  display: flex;
+}
+
+.shop-name {
+	display: inline-block;
+	font-size: 16px;
+	color: #000000;
+  line-height: 24px;
+  overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.shop-card {
+  width: 20px;
+	display: inline-block;
+	font-size: 10px;
+	line-height: 12px;
+	color: #FFFFFF;
+	background: #D0021B;
+	border: 1px solid rgba(0,0,0,0.08);
+	border-radius: 3px;
+	padding: 1px 3px;
+	margin-right: 4px;
+}
+
+.coupon-cp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.coupon-cp b.coupon {
+  float: left;
+  line-height: 14px;
+  background: url(../images/quan.png) center no-repeat rgba(255, 248, 248, 1);
+  background-size: 100% 100%;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: 400;
+  padding: 2px 7px;
+  margin: 6px 0;
+  min-width: 57px;
+  text-align: center;
+  box-sizing: border-box;
+  height:19px;
+  color: #EC5E2A;
+}
+
+.coupon-cp b.coupon i {
+  font-family: Arial;
+  font-size: 15px;
+  margin: 0 2px 0 0;
+  position: relative;
+  top:1px;
+}
+
+.coupon-cp span.count {
+  color: #979897;
+  font-size: 14px;
+  line-height: 14px;
+  height: 19px;
+  margin: 8px 0 6px 0;
+}
+
+.yuan {
+  display: inline-block;
+  font-size: 8px;
+  margin-right: 2px;
+  color: #EC5E2A;
+}
+
+.now-price {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #EC5E2A;
+}
+
+.old-price {
+  display: inline-block;
+  font-size: 14px;
+  color: #979897;
+  margin-left: 10px;
+}
+
+.loadmore {
+  margin-top: 30px;
+}
+
+span.yellow {
+  color: #FFFFFF;
+  background: #EC5E2A;
+}
+
+button.yellow {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #F7CB57;
+  border-color: #F7CB57;
+}
+
+button.yellow:hover {
+  background-color: #ffb700;
+  border-color: #ffb700;
+}
+
+.form-control:focus {
+  border-color: #F7CB57;
+  box-shadow: 0 0 0 0.2rem rgba(247,203,87,.25);
+}
+
+.btn:focus {
+  border-color: #F7CB57;
+  box-shadow: 0 0 0 0.2rem rgba(247,203,87,.25);
+}
+
+a.red {
+  color: #EC5E2A;
+}
