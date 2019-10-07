@@ -32,6 +32,20 @@ footer p {
   margin-bottom: .25rem;
 }
 
+/* Rancho样式 ------------- 影响全局 **********************************/
+
+.row a {
+  text-decoration: none !important;
+}
+
+.funlist {
+  margin-top: 20px;
+}
+
+.funlist li {
+  margin-bottom: 10px;
+}
+
 /* Rancho样式 ------------- index **********************************/
 
 .search {
