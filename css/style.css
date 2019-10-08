@@ -34,6 +34,18 @@ footer p {
 
 /* Rancho样式 ------------- 影响全局 **********************************/
 
+a.color-red {
+  color: #FF4400 !important;
+}
+
+a.color-orange {
+  color: #EC5E2A !important;
+}
+
+a.color-yellow {
+  color: #F7CB57 !important;
+}
+
 .row a {
   text-decoration: none !important;
 }
@@ -89,7 +101,7 @@ footer p {
   margin-top: 6px;
 }
 
-.coupon-cp b.coupon {
+b.coupon {
   float: left;
   line-height: 14px;
   background: url(../images/quan.png) center no-repeat rgba(255, 248, 248, 1);
@@ -106,7 +118,7 @@ footer p {
   color: #EC5E2A;
 }
 
-.coupon-cp b.coupon i {
+b.coupon i {
   font-family: Arial;
   font-size: 15px;
   margin: 0 2px 0 0;
@@ -333,4 +345,83 @@ a.red {
 
 .coupon-right ul li:last-child img {
 	border-radius: 0 0 8px 8px;
+}
+
+/* Rancho样式 ------------- list **********************************/
+
+.list-title {
+  color: #EC5E2A;
+} 
+
+.list-info {
+  font-size: 10px;
+}
+
+.list-img .media img {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.list-img li {
+  margin-top: 30px;
+}
+
+.list-img a {
+  text-decoration: none;
+}
+
+.headimg {
+  position: relative;
+}
+
+.headimg img:first-child {
+  position: relative;
+}
+
+.headimg img:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -15px;
+  top: -22px;
+}
+
+.list-img h6 {
+  line-height: 1.5rem;
+  color: #383838;
+}
+
+.coupon-count {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #979897;
+  margin-bottom: 4px;
+}
+
+.coupon-count b.coupon{
+  margin: 0;
+}
+
+.list-yuan {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 2px;
+  color: #EC5E2A;
+}
+
+.list-now-price {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #EC5E2A;
+}
+
+.list-old-price {
+  display: inline-block;
+  font-size: 12px;
+  color: #979897;
+  margin-left: 10px;
 }
